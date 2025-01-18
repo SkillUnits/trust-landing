@@ -1,3 +1,25 @@
+@media screen and (max-width: 1280px) {
+    .actual-score {
+        font-size: 120px;
+    }
+}
+@media screen and (max-width: 1140px) {
+    .actual-score {
+        font-size: 100px;
+    }
+    .score-nums {
+        font-size: 24px;
+        margin: -100px auto 0 auto;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .score-nums {
+        font-size: 24px;
+        margin: -90px auto 0 auto;
+    }
+}
+
 @media screen and (max-width: 960px) {
     header {
         width: 100%;
@@ -28,12 +50,36 @@
     .button-title {
         text-align: center;
     }
+    .actual-score {
+        font-size: 148px;
+    }
+    .score-nums {
+        font-size: 32px;
+        margin: -120px auto 0 auto;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .actual-score {
+        font-size: 120px;
+    }
+    .score-nums {
+        font-size: 24px;
+        margin: -100px auto 0 auto;
+    }
 }
 
 @media screen and (max-width: 760px) {
     .header-right-container {
         max-width: 100%;
-        margin-bottom: -20px;
+        margin-bottom: 20px;
+    }
+    .actual-score {
+        font-size: 148px;
+    }
+    .score-nums {
+        font-size: 32px;
+        margin: -120px auto 0 auto;
     }
     .header-left-container p {
         font-size: 16px;
@@ -137,5 +183,42 @@
     }
     .call-button-title {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .actual-score {
+        font-size: 120px;
+    }
+    .score-nums {
+        font-size: 24px;
+        margin: -100px auto 0 auto;
+    }
+}
+@media screen and (max-width: 510px) {
+    .actual-score {
+        font-size: 100px;
+    }
+    .score-nums {
+        font-size: 24px;
+        margin: -90px auto 0 auto;
+    }
+}
+@media screen and (max-width: 450px) {
+    .actual-score {
+        font-size: 86px;
+    }
+    .score-nums {
+        font-size: 18px;
+        margin: -75px auto 0 auto;
+    }
+}
+@media screen and (max-width: 375px) {
+    .actual-score {
+        font-size: 82px;
+    }
+    .score-nums {
+        font-size: 18px;
+        margin: -65px auto 0 auto;
     }
 }
